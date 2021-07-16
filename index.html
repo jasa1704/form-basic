@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Formulario clase 1 React CoderHouse</title>
+  </head>
+  <body>
+    <div class="title">
+        <h1>Formulario</h1>
+    </div>
+    <div class="container">
+      <form id="form" name="form">
+        <fieldset class="group">
+          <div class="campo">
+            <label for="name"> <strong>Nombre completo</strong> </label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div class="campo">
+            <label for="country"> <strong>Pais </strong> </label>
+            <input type="text" name="country" id="country" />
+          </div>
+          <div class="campo">
+            <label for="address"> <strong>Dirección </strong> </label>
+            <input type="text" name="address" id="address" />
+          </div>
+          <div class="campo">
+            <label for="email"> <strong>Correo electrónico</strong> </label>
+            <input type="text" name="email" id="email" />
+          </div>
+
+          <div class="campo">
+            <br />
+            <br />
+            <div class="btns-container">
+                <button name="clear" id="clear" class="btns">Limpiar</button>
+                <button name="save" id="save" class="btns">Guardar</button>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+  <script src="./app.js"></script>
+</html>
